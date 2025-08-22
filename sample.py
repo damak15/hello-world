@@ -1,18 +1,22 @@
+#commit-1 adding numbers
 def add_numbers():
     a = int(input("Enter first number: "))
     b = int(input("Enter second number: "))
     print("Sum =", a + b)
 
+#commit-2 subtract numbers
 def subtract_numbers():
     a = int(input("Enter first number: "))
     b = int(input("Enter second number: "))
     print("Difference =", a - b)
 
+#commit-3 multiply numbers
 def multiply_numbers():
     a = int(input("Enter first number: "))
     b = int(input("Enter second number: "))
     print("Product =", a * b)
 
+#commit-4 divide numbers
 def divide_numbers():
     a = int(input("Enter first number: "))
     b = int(input("Enter second number: "))
@@ -21,6 +25,7 @@ def divide_numbers():
     else:
         print("Error: Division by zero!")
 
+#commit-5 declaration of function
 def find_square():
     a = int(input("Enter a number: "))
     print("Square =", a * a)
